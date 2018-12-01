@@ -1,4 +1,4 @@
-import FIELD_TYPES from "./FIELD_TYPES";
+const FIELD_TYPES = require('./FIELD_TYPES')
 
 const FIELDS = {
   additionalInfo: id => ({
@@ -73,7 +73,8 @@ const FIELDS = {
     type: FIELD_TYPES.number,
   }),
 };
-export default [
+
+module.exports= [
   {
     id: "00ZXkGRWzHjuF00AHEkW",
     name: "Odśnieżanie pojazdu",

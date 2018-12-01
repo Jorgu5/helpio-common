@@ -1,4 +1,4 @@
-export default {
+module.exports= {
   select: "select",
   number: "number",
   bool: "bool",
