@@ -1,1 +1,1 @@
-exports.constants = require("./constants");
+exports.constants = require('./constants');

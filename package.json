@@ -5,5 +5,8 @@
   "repository": "git@github.com:cieniewski/helpio-common.git",
   "author": "Mariusz Cieniewski <mariusz@cieniew.ski>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
 }
