@@ -1,0 +1,9 @@
+{
+  "name": "helpio-common",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cieniewski/helpio-common.git",
+  "author": "Mariusz Cieniewski <mariusz@cieniew.ski>",
+  "license": "MIT",
+  "private": true
+}
