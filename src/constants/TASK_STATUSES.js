@@ -4,4 +4,7 @@ module.exports = {
   finishedByCustomer: 'finished_by_customer',
   finishedByWorker: 'finished_by_worker',
   finished: 'finished',
+  ratedByCustomer: 'ratedByCustomer',
+  ratedByWorker: 'ratedByWorker',
+  rated: 'rated',
 };
