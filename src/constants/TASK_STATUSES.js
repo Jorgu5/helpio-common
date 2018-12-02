@@ -7,4 +7,5 @@ module.exports = {
   ratedByCustomer: 'ratedByCustomer',
   ratedByWorker: 'ratedByWorker',
   rated: 'rated',
+  deleted: 'deleted',
 };
