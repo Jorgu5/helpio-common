@@ -6,4 +6,5 @@ module.exports = {
   EVALUATION_ACCEPTED_BY_WORKER: 'EVALUATION_ACCEPTED_BY_WORKER',
   TASK_RATEABLE: 'TASK_RATEABLE',
   taskRated: 'taskRated',
+  taskCanceled: 'taskCanceled',
 };
