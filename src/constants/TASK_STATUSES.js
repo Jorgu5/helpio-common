@@ -8,4 +8,6 @@ module.exports = {
   ratedByWorker: 'ratedByWorker',
   rated: 'rated',
   deleted: 'deleted',
+  canceledByCustomer: 'canceledByCustomer',
+  canceledByWorker: 'canceledByWorker',
 };
