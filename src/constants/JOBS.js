@@ -139,6 +139,7 @@ module.exports = [
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2F5TZvuY7TGrhLLBelGWCp?alt=media&token=ac4e37c6-f415-4182-9092-b6774e0aeadf',
     fields: [
+      FIELDS.dirtLevel('858LOTqkiJuQtocSdMBm'),
       {
         id: '5Vm54P9T01WHO6ifCpDQ',
         label: 'Typ okna',
@@ -153,7 +154,6 @@ module.exports = [
         type: FIELD_TYPES.select,
       },
       FIELDS.hourlySettlement('7yNClhrDiteaYXHZtuEk'),
-      FIELDS.dirtLevel('858LOTqkiJuQtocSdMBm'),
       FIELDS.floor('Glcz6T9G63ldcUiHshd1'),
       FIELDS.buildingType('NVEsx34vMKtHaIxQpQBs'),
       FIELDS.provideResources('RDsoyR9KqP6Jn6337cfa'),
