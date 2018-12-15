@@ -78,6 +78,7 @@ module.exports = [
   {
     id: '00ZXkGRWzHjuF00AHEkW',
     name: 'Odśnieżanie pojazdu',
+    color:'#5e0e39',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2F00ZXkGRWzHjuF00AHEkW?alt=media&token=52a0c618-f0e1-4b02-9539-c57a8aa58d32',
     fields: [
@@ -94,6 +95,7 @@ module.exports = [
   {
     id: '3GpC01ZhATm08zTdrQJG',
     name: 'Koszenie trawy',
+    color:'#ee29cc',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2F3GpC01ZhATm08zTdrQJG?alt=media&token=95fda32b-fc4a-4b03-acad-1a7469552913',
     fields: [
@@ -133,6 +135,7 @@ module.exports = [
   {
     id: '5TZvuY7TGrhLLBelGWCp',
     name: 'Mycie okien',
+    color:'#a98a64',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2F5TZvuY7TGrhLLBelGWCp?alt=media&token=ac4e37c6-f415-4182-9092-b6774e0aeadf',
     fields: [
@@ -166,6 +169,7 @@ module.exports = [
   {
     id: '5eEd2X5eIP0cMz1sycM3',
     name: 'Odgarnianie liści',
+    color:'#7460f8',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2F5eEd2X5eIP0cMz1sycM3?alt=media&token=8aeedcd2-dbb1-4b98-9761-50f79dba3712',
     fields: [
@@ -206,6 +210,7 @@ module.exports = [
   {
     id: 'CQitLmTJdPo8lMpGuwnr',
     name: 'Wyprowadzanie zwierząt',
+    color:'#1436a3',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FCQitLmTJdPo8lMpGuwnr?alt=media&token=6200321a-d044-4f51-82f6-34ce27ddc6a7',
     fields: [
@@ -255,6 +260,7 @@ module.exports = [
   {
     id: 'E8K1Qdu0JfKDuQtnICS1',
     name: 'Malowanie obiektu',
+    color:'#843927',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FE8K1Qdu0JfKDuQtnICS1?alt=media&token=826a5a84-cee9-425b-a321-b0d93c3497e0',
     fields: [
@@ -300,6 +306,7 @@ module.exports = [
   {
     id: 'OqGSWBB7Am7vA0nlpsu3',
     name: 'Opieka nad osobą starszą',
+    color:'#82b25f',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FOqGSWBB7Am7vA0nlpsu3?alt=media&token=517781ca-951b-4a6e-9203-9736e00d7c74',
     fields: [
@@ -357,6 +364,7 @@ module.exports = [
   {
     id: 'WJUVuodMjOOQInweGXOX',
     name: 'Sprzątanie',
+    color:'#415e27',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FWJUVuodMjOOQInweGXOX?alt=media&token=abdf1cbe-af50-4c66-a036-d0a4b845e8b5',
     fields: [
@@ -407,6 +415,7 @@ module.exports = [
   {
     id: 'WKom5OudrlYlQcRxD3f1',
     name: 'Złota rączka',
+    color:'#285e57',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FWKom5OudrlYlQcRxD3f1?alt=media&token=c003c720-6211-4753-91c8-50e557fde84e',
     fields: [
@@ -421,6 +430,7 @@ module.exports = [
   {
     id: 'cajJITRC4Qj4cxzsnCGW',
     name: 'Mycie pojazdu',
+    color:'#5e0e39',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FcajJITRC4Qj4cxzsnCGW?alt=media&token=68b2fd6a-7c99-49d0-b355-d58bbbf3167e',
     fields: [
@@ -447,6 +457,7 @@ module.exports = [
   {
     id: 'cn9P8tnKzpMSJCwwZeuo',
     name: 'Stanie w kolejce',
+    color:'#242a5e',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2Fcn9P8tnKzpMSJCwwZeuo?alt=media&token=65822dc0-2a20-4ba6-b63d-05c6544916db',
     fields: [
@@ -471,6 +482,7 @@ module.exports = [
   {
     id: 'dG7yoy6SXIbyz2OfnCYb',
     name: 'Towarzystwo',
+    color:'#485e22',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FdG7yoy6SXIbyz2OfnCYb?alt=media&token=3e0f4c10-b191-4779-9039-53de85fc037f',
     fields: [
@@ -496,6 +508,7 @@ module.exports = [
   {
     id: 'e9OPcYbLGLe1h4ZVJD8E',
     name: 'Transport',
+    color:'#1d5e1e',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2Fe9OPcYbLGLe1h4ZVJD8E?alt=media&token=739c6b56-9cdd-4932-9eb3-ddbfdaa16caf',
     fields: [
@@ -541,6 +554,7 @@ module.exports = [
   {
     id: 'f7BtOVdBVhcHLp5e8qR9',
     name: 'Opieka nad osobą niepełnosprawną',
+    color:'#4a5e33',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2Ff7BtOVdBVhcHLp5e8qR9?alt=media&token=135aa26a-50e7-48e1-a073-37e838c8ff5d',
     fields: [
@@ -615,6 +629,7 @@ module.exports = [
   {
     id: 'fyadEHDEFLBu8ivQ6PxI',
     name: 'Mycie łodzi',
+    color:'#5e1711',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FfyadEHDEFLBu8ivQ6PxI?alt=media&token=960bf01e-dc71-44f4-8fef-26373ca414a2',
     fields: [
@@ -664,6 +679,7 @@ module.exports = [
   {
     id: 'hCAGBil2U8E1S98rbiI6',
     name: 'Opieka nad dziećmi',
+    color:'#005e0e',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FhCAGBil2U8E1S98rbiI6?alt=media&token=34b38571-f900-42fe-b1a0-d4c4ff9374f8',
     fields: [
@@ -729,6 +745,7 @@ module.exports = [
   {
     id: 'hsI91oouxRrpNoGQIHrr',
     name: 'Prace w ogrodzie',
+    color:'#ff2a00',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FhsI91oouxRrpNoGQIHrr?alt=media&token=81e7d3f9-7219-4914-bf97-b50c7d081e30',
     fields: [
@@ -762,6 +779,7 @@ module.exports = [
   {
     id: 'oeeqYD2ABGcN5PtfBXmw',
     name: 'Prasowanie rzeczy',
+    color:'#22ff4a',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FoeeqYD2ABGcN5PtfBXmw?alt=media&token=3601d494-c7d6-4ad4-a86b-fde28ae30679',
     fields: [
@@ -797,6 +815,7 @@ module.exports = [
   {
     id: 'rsGUN4YEvwfOgqa1S0rb',
     name: 'Skręcanie mebli',
+    color:'#75ff00',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FrsGUN4YEvwfOgqa1S0rb?alt=media&token=b1f43e2d-05d4-4087-93fe-9006c4f579af',
     fields: [
@@ -812,6 +831,7 @@ module.exports = [
   {
     id: 'utcl42Cw0xkCdLn2rcAP',
     name: 'Odśnieżanie miejsc',
+    color:'#b6ff9e',
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2Futcl42Cw0xkCdLn2rcAP?alt=media&token=17ea2cd8-f2d3-4bb9-acf2-08da46d813a0',
     fields: [
