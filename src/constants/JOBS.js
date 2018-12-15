@@ -368,8 +368,8 @@ module.exports = [
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FWJUVuodMjOOQInweGXOX?alt=media&token=abdf1cbe-af50-4c66-a036-d0a4b845e8b5',
     fields: [
-      FIELDS.provideTools('FeXZL4xlKLHICPqaEWX9'),
       FIELDS.dirtLevel('L9HCsMvBSX54D2kpRr3o'),
+      FIELDS.provideTools('FeXZL4xlKLHICPqaEWX9'),
       FIELDS.hourlySettlement('W7hEc1uzWck2S6Y6PM10'),
       {
         label: 'Rodzaj Pomieszczeń',
@@ -434,6 +434,7 @@ module.exports = [
     photoURL:
       'https://firebasestorage.googleapis.com/v0/b/helpio-app.appspot.com/o/jobs%2FcajJITRC4Qj4cxzsnCGW?alt=media&token=68b2fd6a-7c99-49d0-b355-d58bbbf3167e',
     fields: [
+      FIELDS.dirtLevel('Rft0GgtvOXj3YGoW1fVz'),
       {
         placeholder: 'Marka i model',
         id: '5BLNEDum1bABAH7g00kZ',
@@ -447,7 +448,6 @@ module.exports = [
         type: FIELD_TYPES.select,
       },
       FIELDS.hourlySettlement('HxNnnMvGuFxSWQA7BUZu'),
-      FIELDS.dirtLevel('Rft0GgtvOXj3YGoW1fVz'),
       FIELDS.vehicleType('snPeiCCUhVO3e58j9YeA'),
       FIELDS.provideTools('voIDJPZbXNysBbVzILN4'),
       FIELDS.provideResources('xrwfH7aInqi1S10SRYt9'),
