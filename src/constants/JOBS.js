@@ -948,4 +948,129 @@ module.exports = [
       },
     ],
   },
+  {
+    id: '6GbzORnIPVrBUCMtBi9T',
+    name: 'Robótki krawieckie',
+    color: '#13ff0e',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/6GbzORnIPVrBUCMtBi9T',
+    fields: [
+      {
+        id: 'Y6S41ocayGvg9cQjmpJB',
+        label: 'Dowiozę rzecz pod wskazany adres',
+        type: FIELD_TYPES.bool,
+      },
+      {
+        id: 'A6S41ocayGvg9cQjmpJB',
+        label: 'Odbiorę po realizacji',
+        type: FIELD_TYPES.bool,
+      },
+      {
+        id: 'PJuHeakKZe562T75rChM',
+        label: 'Jakie prace',
+        options: [
+          'przyszywanie guzików',
+          'zacerowanie dziury',
+          'naszycie łaty',
+          'naprawa lub wymiana zamka',
+          'skracanie',
+          'szydełkowanie',
+          'uszycie nowej rzeczy',
+          'inne',
+        ],
+        type: FIELD_TYPES.select,
+      },
+      {
+        id: 'ZsIwHzP5vuTLpm8sephA',
+        placeholder: 'Opis',
+        type: FIELD_TYPES.textarea,
+      },
+      {
+        id: 'A6S41ocayGvg9cQjmpAB',
+        label: 'Dostarczam materiał',
+        type: FIELD_TYPES.bool,
+      },
+    ],
+  },
+  {
+    id: 'jS3JuXCNU2x7DVWruDJd',
+    name: 'Korepetycje',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+    fields: [
+      {
+        id: '3hpFYKwtXhC1CydOrvEg',
+        label: 'Kto chce się nauczyć',
+        options: ['dziecko', 'młodzież', 'osoba starsza'],
+        type: FIELD_TYPES.select,
+      },
+      {
+        id: 'wIIh0W0xz5ErrB9AeeDy',
+        label: 'Wiek',
+        max: 125,
+        min: 1,
+        type: FIELD_TYPES.number,
+      },
+      {
+        id: 'D1NLD3SK0TZUo4JpAOeF',
+        label: 'Dojadę',
+        type: FIELD_TYPES.bool,
+      },
+      {
+        id: 'bMo6ePdEWX3UiqEQxTi2',
+        label: 'Zajęcia pod wskazanym adresem',
+        type: FIELD_TYPES.bool,
+      },
+      {
+        id: 'QCbGmuoWcQcF3Z7egQJz',
+        label: 'Rodzaj lekcji',
+        options: [
+          'nauka szkolna, uczelniana ',
+          'sport ',
+          'muzyka ',
+          'gotowanie',
+          'inne',
+        ],
+        type: FIELD_TYPES.select,
+      },
+      {
+        id: 'nu4EPzxRNivAEfg4VZNF',
+        label: 'Cyklicznie',
+        type: FIELD_TYPES.bool,
+      },
+    ],
+  },
+  {
+    id: 'BxfPyxDcSlEgHXEuDIol',
+    name: 'Robienie zakupów',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/BxfPyxDcSlEgHXEuDIol',
+    fields: [
+      {
+        id: 'DFi7huzGO7dSgWGeW0Az',
+        label: 'udostępnię gotówkę w celu zrealizowania zakupów',
+        type: FIELD_TYPES.bool,
+      },
+      {
+        id: 'LxDsBlVhIZzuiZ96V3QQ',
+        label: 'proszę dostarczyć zakupy pod wskazany adres',
+        type: FIELD_TYPES.bool,
+      },
+      {
+        id: 'ecR0K7bUdLSRufMMrYxX',
+        label: 'odbiorę zakupy od realizującego czynność',
+        type: FIELD_TYPES.bool,
+      },{
+        id: 'JbqcIlamG4KS8BriYi4w',
+        label: 'w jakim sklepie zrobić zakupy',
+        type: FIELD_TYPES.text,
+      },{
+        id: '1q2MktROA4hmdlAV4OnF',
+        placeholder: 'wpisz produkty i ilość, lub zrób zdjęcie listy zakupów i wprowadź',
+        type: FIELD_TYPES.textarea,
+      },
+    ],
+  },
 ];
