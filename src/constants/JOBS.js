@@ -864,4 +864,88 @@ module.exports = [
       FIELDS.additionalInfo('HzTojBqzK7kZTqRaF6Qt'),
     ],
   },
+  {
+    id: 'HpTBcV377UDWzOnyvhvF',
+    name: 'Przygotowywanie posiłku',
+    color: '#3a91ff',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/HpTBcV377UDWzOnyvhvF',
+    fields: [
+      {
+        id: 'Id7I5d2Yac2xMxPPqHaT',
+        label: 'Odbiór własny/dostawa pod adres',
+        type: FIELD_TYPES.bool,
+      },
+      {
+        id: 'Id7I5d2YBc2xMxPPqHaT',
+        label: 'Posiłek wegetariański',
+        type: FIELD_TYPES.bool,
+      },
+      {
+        id: 'BqT0hyAiFjfQTNXfwQMn',
+        label: 'Zupa ilość porcji',
+        max: 10,
+        min: 0,
+        type: FIELD_TYPES.number,
+      },
+      {
+        id: 'BjcP4J3O40j5r5xxITr1',
+        label: 'Jakia zupa',
+        type: FIELD_TYPES.text,
+      },
+      {
+        id: 'AqT0hyAiFjfQTNXfwQMn',
+        label: 'Drugie danie ilość porcji',
+        max: 10,
+        min: 0,
+        type: FIELD_TYPES.number,
+      },
+      {
+        id: 'AjcP4J3O40j5r5xxITr1',
+        label: 'Jakie danie',
+        type: FIELD_TYPES.text,
+      },
+      {
+        id: '7qT0hyAiFjfQTNXfwQMn',
+        label: 'Deser ilość porcji',
+        max: 10,
+        min: 0,
+        type: FIELD_TYPES.number,
+      },
+      {
+        id: 'PjcP4J3O40j5r5xxITr1',
+        label: 'Jakie desery',
+        type: FIELD_TYPES.text,
+      },
+      {
+        id: '7pre6AewPopfpq8zg8Xs',
+        label: 'Ciasto ilość blach',
+        max: 10,
+        min: 0,
+        type: FIELD_TYPES.number,
+      },
+      {
+        id: 'Gdk59qxOD989afxs0y1Y',
+        label: 'Ciasto ilość ciasteczek',
+        max: 10,
+        min: 1,
+        type: FIELD_TYPES.number,
+      },
+      {
+        id: 'ZsIwHzP5vuTLpm8sephH',
+        placeholder: 'Inne',
+        type: FIELD_TYPES.textarea,
+      },
+      {
+        id: 'IM7I5d2YBc2xMxPPqHaT',
+        label: 'Jednorazówki',
+        type: FIELD_TYPES.bool,
+      },
+      {
+        id: 'emGO1nspJnizoTQCdhBY',
+        label: 'Zwrot naczyń',
+        type: FIELD_TYPES.bool,
+      },
+    ],
+  },
 ];
