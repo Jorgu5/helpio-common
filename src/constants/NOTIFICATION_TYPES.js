@@ -7,4 +7,5 @@ module.exports = {
   TASK_RATEABLE: 'TASK_RATEABLE',
   taskRated: 'taskRated',
   taskCanceled: 'taskCanceled',
+  taskActive: 'taskActive',
 };
