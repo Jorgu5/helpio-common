@@ -927,7 +927,7 @@ module.exports = [
       {
         id: 'Gdk59qxOD989afxs0y1Y',
         label: 'Ciasto ilość ciasteczek',
-        max: 10,
+        max: 100,
         min: 1,
         type: FIELD_TYPES.number,
       },
@@ -994,7 +994,7 @@ module.exports = [
   },
   {
     id: 'jS3JuXCNU2x7DVWruDJd',
-    name: 'Korepetycje',
+    name: 'Umiejętności i korepetycje',
     color: '#ff0064',
     photoURL:
       'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
@@ -1039,6 +1039,11 @@ module.exports = [
         label: 'Cyklicznie',
         type: FIELD_TYPES.bool,
       },
+      {
+        id: 'ZsIwHzP5vuTLpm4sephH',
+        placeholder: 'Inne',
+        type: FIELD_TYPES.textarea,
+      }
     ],
   },
   {
