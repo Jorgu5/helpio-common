@@ -1047,7 +1047,7 @@ module.exports = [
       },
       {
         id: 'ZsIwHzP5vuTLpm4sephH',
-        placeholder: 'Inne',
+        placeholder: 'czego chce się nauczyć',
         type: FIELD_TYPES.textarea,
       }
     ],
