@@ -162,6 +162,7 @@ module.exports = [
       {
         label: 'Ilość okien',
         id: '9F1uz29BvyPs11f4HHbT',
+        max: 1000,
         min: 1,
         type: FIELD_TYPES.number,
       },
