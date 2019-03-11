@@ -1085,4 +1085,128 @@ module.exports = [
       },
     ],
   },
+  {
+    id: '5Vaw79cepJDruPEgbw844',
+    name: 'Barman na imprezie',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+    fields: [
+      {
+        id: 'SUjxckcXPMtbnpGU2nJaq',
+        label: 'rodzaj imprezy',
+        options: ['urodziny', 'event', 'rocznica', 'impreza zamknięta', 'inne'],
+        type: FIELD_TYPES.select,
+      },
+      FIELDS.buildingType('A4EEKfBhJ6A4NxEx94MnV'),
+      FIELDS.provideTools('o8KvtbhBK7BebGpRJ7Ze8'),
+      {
+        id: 'ts6yqE2BroqYxmR83SjzU',
+        label: 'udostępniam trunki',
+        type: FIELD_TYPES.bool,
+      },
+      {
+        label: 'ilość godzin',
+        id: 'Xb3LsbjSQRLHnKxrbzhYq',
+        max: 24,
+        min: 1,
+        placeholder: '',
+        suffix: 'h',
+        type: FIELD_TYPES.number,
+      },
+      FIELDS.hourlySettlement('FVaWuCfdCzAe3M6DwpTMz'),
+      FIELDS.additionalInfo('2yJYqmX8KMd6oAZrfDufD')
+    ],
+  },
+  {
+    id: '8HQDLMs5YswXBUNnjmwwY',
+    name: 'Położenie płytek',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+    fields: [
+      FIELDS.buildingType('3jZtaFw4nABuREE4xasp6'),
+      {
+        label: 'Rodzaj pomieszczenia',
+        id: 'Pqq3c8N94dBMCvoHrRurS',
+        options: [
+          'Pokój',
+          'Salon',
+          'Łazienka',
+          'Toaleta',
+          'Kuchnia',
+          'Inne',
+          'Pomieszczenie gospodarcze',
+          'Garaż',
+        ],
+        placeholder: '',
+        type: FIELD_TYPES.select,
+      },
+      FIELDS.provideTools('pGXtaU33JygzpJcWXKrAM'),
+      FIELDS.provideResources('CDGrLyHFpZuwpo7HQySNf'),
+      FIELDS.additionalInfo('RBqtXMDNNRRRYH4WQaLg4')
+    ],
+  },
+  {
+    id: 'H5Red7dvkSMnHFKVKXa2f',
+    name: 'Położenie paneli',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+    fields: [
+      FIELDS.buildingType('sqpUMDvXkY6PfKsLoowFz'),
+      {
+        label: 'Rodzaj pomieszczenia',
+        id: 'hNFsaQQJgwA7kVjoQG8ec',
+        options: [
+          'Pokój',
+          'Salon',
+          'Łazienka',
+          'Toaleta',
+          'Kuchnia',
+          'Inne',
+          'Pomieszczenie gospodarcze',
+          'Garaż',
+        ],
+        placeholder: '',
+        type: FIELD_TYPES.select,
+      },
+      FIELDS.provideTools('oToe5a22f2Hu7A4nQd4Ld'),
+      FIELDS.provideResources('AwykkNrSt4ELQjgrKG7bQ'),
+      FIELDS.additionalInfo('2HQvv68XhKYdJHXXzfQ4k')
+    ],
+  },
+  {
+    id: '2k3HadPGP58Wm3RRzfyKD',
+    name: 'Masaż',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+    fields: [
+      {
+        label: 'Rodzaj pomieszczenia',
+        id: 'hNFsaQQJgwA7kVjoQG8ec',
+        options: [
+          'Relaksacyjny',
+          'Rehabilitacyjny',
+          'Sportowy',
+          'Inny',
+        ],
+        placeholder: '',
+        type: FIELD_TYPES.select,
+      },
+      {
+        label: 'Ilość godzin',
+        id: 'cTMAgMfwfYXYs6z5mFjQd',
+        max: 24,
+        min: 1,
+        placeholder: '',
+        suffix: 'h',
+        type: FIELD_TYPES.number,
+      },
+      FIELDS.hourlySettlement('EAEWREBQPFt8StP69LKx9'),
+      FIELDS.additionalInfo('9qE8TqeCFRGFV5X26efc7')
+    ],
+  },
 ];
+
