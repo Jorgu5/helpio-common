@@ -1227,8 +1227,8 @@ module.exports = [
       },
       {
         id: 'TArtGbQBj484xYDMPGZy',
-        by: 'm4raPrDNjkvcNJT65JaT',
-        if: 'Przenośne',
+        showBy: 'm4raPrDNjkvcNJT65JaT',
+        showIf: 'Przenośne',
         options: [
           'Odbiór własny',
           'Dostawa pod adres'
