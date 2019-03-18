@@ -1228,7 +1228,7 @@ module.exports = [
       {
         id: 'TArtGbQBj484xYDMPGZy',
         showBy: 'm4raPrDNjkvcNJT65JaT',
-        showIf: 'Przenośne',
+        showIf: 'Miejsce',
         options: [
           'Odbiór własny',
           'Dostawa pod adres'
@@ -1246,5 +1246,105 @@ module.exports = [
       FIELDS.additionalInfo('qw9WzgLCw8NnYW7WchV7')
     ],
   },
+  {
+    id: 'SroLcCwzpTUBAFPJpjWU',
+    name: 'Drobne prace remontowe',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+    fields: [
+      FIELDS.hourlySettlement('jpGzrGpeEo5WeR8QT4QH'),
+      {
+        id: 'obJogXx6GTqqHxqzEddJ',
+        placeholder: 'Zakrec prac',
+        type: FIELD_TYPES.textarea
+      },
+      FIELDS.provideTools('2G6FXDVh8cqUMzGtWEX4'),
+      FIELDS.provideResources('XNT6LH5QnGYNPvTdyfU6'),
+      FIELDS.additionalInfo('RKq4JxW7BmzZzTvK3Z2P')
+    ],
+  },
+  {
+    id: '8r3nnnYk2kQhuFLDD8aE',
+    name: 'Zrobienie paznokci',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+    fields: [
+      {
+        id: 'Sa6Rt23Uru9YmBK7oaQN',
+        placeholder: 'Szczegóły (ciąganie poprzedniej powłoki, malowanie (proste, artystyczne itp.)',
+        type: FIELD_TYPES.textarea
+      },
+      FIELDS.provideTools('T7wNcGRfermx2QPTghe8'),
+      FIELDS.provideResources('bNwVQGtChHRAfNPRU6wz'),
+      FIELDS.hourlySettlement('sbz7pNoJjkHF2FuYRBDK'),
+      FIELDS.additionalInfo('WhxoyLGetnM5AJrQRjTy')
+    ],
+  },
+  {
+    id: 'oReoZ5DhMWfDxebnsXvb',
+    name: 'Pomoc przy imprezie',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+    fields: [
+      {
+        id: 'HDgaJbyZcCbYUPMmkR3w',
+        label: 'Rodzaj imprezy',
+        placeholder: 'Urodziny / event / impreza firmowa itp.',
+        type: FIELD_TYPES.text
+      },
+      {
+        id: 'dGAbmbWdzSNGVvg66fvG',
+        placeholder: 'Zakres czynności (rozkładanie i ściąganie naczyń / posiłków / nakładanie / rozlewanie posiłków / mycie naczyń, itp.)',
+        type: FIELD_TYPES.textarea
+      },
+      FIELDS.buildingType('j77Cmko5AP2eW3QGCdmC'),
+      {
+        label: 'Ilość godzin',
+        id: 'wzKRvsnZ8h8QNETzqG4r',
+        max: 24,
+        min: 1,
+        placeholder: '',
+        suffix: 'h',
+        type: FIELD_TYPES.number,
+      },
+      FIELDS.hourlySettlement('Vv6hWmqZYb3Uacc55XvB'),
+      FIELDS.additionalInfo('F4RU9aTXhoNChjmD5b4u')
+    ],
+  },
+  {
+    id: 'MwPn9rRCPMDUfVeNwxcd',
+    name: 'Opieka nad zwierzetami',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+    fields: [
+      {
+        id: 'mqg3927DCAyPwMB6CT8R',
+        placeholder: 'Jakie zwierzęta',
+        type: FIELD_TYPES.textarea
+      },
+      {
+        id: '6ccKxQYuNA7yrM2Zex4g',
+        placeholder: 'Rodzaj opieki (karmienie, sprzątanie po, itp)',
+        type: FIELD_TYPES.textarea
+      },
+      {
+        label: 'Ilość posiłków',
+        id: 'x3wueyZgRxynaax8rV2E',
+        max: 24,
+        min: 1,
+        type: FIELD_TYPES.number,
+      },
+      {
+        id: 'WxDMK6dp3F6Z83UMZkug',
+        placeholder: 'Godziny posiłków',
+        type: FIELD_TYPES.textarea
+      },
+      FIELDS.additionalInfo('hs4R3ZqTnQXJN3WXxzMZ')
+    ],
+  }
 ];
 
