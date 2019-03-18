@@ -1208,5 +1208,43 @@ module.exports = [
       FIELDS.additionalInfo('9qE8TqeCFRGFV5X26efc7')
     ],
   },
+  {
+    id: 't5NgSVqDpJZ89GmXvGN7',
+    name: 'Pranie dywanów',
+    color: '#ff0064',
+    photoURL:
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+    fields: [
+      {
+        label: 'Gdzie',
+        id: 'm4raPrDNjkvcNJT65JaT',
+        options: [
+          'Na miejscu',
+          'Przenośne',
+        ],
+        placeholder: '',
+        type: FIELD_TYPES.select,
+      },
+      {
+        id: 'TArtGbQBj484xYDMPGZy',
+        by: 'm4raPrDNjkvcNJT65JaT',
+        if: 'Przenośne',
+        options: [
+          'Odbiór własny',
+          'Dostawa pod adres'
+        ],
+        type: FIELD_TYPES.multiRadio,
+      },
+      FIELDS.dirtLevel('sVbF6ubADLTWLJPSm6U4'),
+      {
+        id: 'ztxwRAJ7G96zvFEZAgZE',
+        placeholder: 'Ilość dywanów \n 1 - dywan - powierzchnia m2, włosy krótkie / długie itd.',
+        type: FIELD_TYPES.textarea,
+      },
+      FIELDS.provideTools('sj2CtgVdMfFL8CGqCQVK'),
+      FIELDS.provideResources('qsJmxPKyvbCnT5qMLKqX'),
+      FIELDS.additionalInfo('qw9WzgLCw8NnYW7WchV7')
+    ],
+  },
 ];
 

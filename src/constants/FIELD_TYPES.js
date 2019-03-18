@@ -6,4 +6,5 @@ module.exports = {
   textarea: 'textarea',
   text: 'text',
   multiCheckbox: 'multiCheckbox',
+  multiRadio: 'multiRadio'
 };
