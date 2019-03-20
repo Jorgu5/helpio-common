@@ -1090,7 +1090,7 @@ module.exports = [
     name: 'Barman na imprezie',
     color: '#ff0064',
     photoURL:
-      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/barman.png',
     fields: [
       {
         id: 'SUjxckcXPMtbnpGU2nJaq',
@@ -1123,7 +1123,7 @@ module.exports = [
     name: 'Położenie płytek',
     color: '#ff0064',
     photoURL:
-      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/k%C5%82adzenie+p%C5%82ytek.png',
     fields: [
       FIELDS.buildingType('3jZtaFw4nABuREE4xasp6'),
       {
@@ -1213,7 +1213,7 @@ module.exports = [
     name: 'Pranie dywanów',
     color: '#ff0064',
     photoURL:
-      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/pranie+dywan%C3%B3w.png',
     fields: [
       {
         label: 'Gdzie',
@@ -1251,7 +1251,7 @@ module.exports = [
     name: 'Drobne prace remontowe',
     color: '#ff0064',
     photoURL:
-      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/drobne+prace+remontowe.png',
     fields: [
       FIELDS.hourlySettlement('jpGzrGpeEo5WeR8QT4QH'),
       {
@@ -1287,7 +1287,7 @@ module.exports = [
     name: 'Pomoc przy imprezie',
     color: '#ff0064',
     photoURL:
-      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/pomoc+przy+uroczysto%C5%9Bci.png',
     fields: [
       {
         id: 'HDgaJbyZcCbYUPMmkR3w',
@@ -1319,7 +1319,7 @@ module.exports = [
     name: 'Opieka nad zwierzetami',
     color: '#ff0064',
     photoURL:
-      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/jS3JuXCNU2x7DVWruDJd',
+      'https://s3-eu-west-1.amazonaws.com/helpio/jobs/opieka+nad+zwierz%C4%99tami.png',
     fields: [
       {
         id: 'mqg3927DCAyPwMB6CT8R',
